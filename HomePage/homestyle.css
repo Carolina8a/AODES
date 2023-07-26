@@ -35,7 +35,18 @@ h1 {
     border-radius: 0px;
     border-width: 4px;
     border-color: white;
+    overflow: hidden; 
+   
 }
+
+.card img {
+    transition: transform 0.3s ease;
+  }
+
+  .card img:hover {
+    transform: scale(1.1); 
+  }
+  
 
 @media (max-width: 576px) {
     .card {
@@ -45,8 +56,12 @@ h1 {
 
 .cardpic {
     border-radius: 0px;
+    transition: 0.5ms;
+    object-fit: cover;
+    
     
 }
+
 .cardpix {
     padding-left: 5px;
     padding-right: 5px;
