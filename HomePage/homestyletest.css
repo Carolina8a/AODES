@@ -44,11 +44,11 @@
 
     /* pattern */
     .pattern-background {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 70%, white 50%), url(/Images/ModelosPatron-01.png);
+        background: linear-gradient(to bottom, #3f3f3fcc 70%, white 50%), url(/Images/FondoGeo-01.png);
         background-blend-mode: normal, lighten; /* Use lighten blend mode for the pattern */
         background-attachment: local;
         color: rgb(0, 0, 0);
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.2);
       }
       
       .pattern-background h1 {
@@ -189,4 +189,10 @@ h1 {
     text-transform: capitalize;
     position: relative; 
 
+  }
+
+  .row-col-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
