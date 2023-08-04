@@ -55,7 +55,14 @@
 }
 
 .Background-image{
-    background-image: url("/Images/AODES_Seccion_Galeri­a.png");
-    background-repeat: no-repeat;
-    overflow: hidden;
+    background-image: url("/Images/AODES_Galeri­a.png");
+    background-size: cover;
+    width: 100vh;
+    height: 70vh;
+   
+}
+
+.carousel-item{
+    height: 15vh;
+    width: 30vh;
 }
