@@ -70,19 +70,30 @@
    
 }
 
+
 .carousel-inner {
+    margin-top: 80px;
     /* Optional: Adjust the max-width of the carousel content */
     max-width: 600px; /* You can change this value to your preferred width */
     margin: 0 auto; /* Centers the carousel content within the container */
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .carousel-item {
-    /* Optional: Adjust the size of the carousel items */
-    height: 750px; /* You can change this value to your preferred height */
-    width: 450px; /* You can change this value to your preferred width */
-    object-fit: contain;
+    /* Set a fixed aspect ratio for the carousel items */
+    /* For example, 16:9 aspect ratio */
+
+    position: relative;
+    overflow: hidden;
 }
 
+.carousel-item img {
+    /* Ensure the image covers the entire container */
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
