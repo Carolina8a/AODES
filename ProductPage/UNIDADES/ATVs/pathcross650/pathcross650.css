@@ -64,7 +64,25 @@
    
 }
 
-.carousel-item{
-    height: 15vh;
-    width: 30vh;
+.carousel-container {
+    display: flex;
+    justify-content: center;
+   
 }
+
+.carousel-inner {
+    /* Optional: Adjust the max-width of the carousel content */
+    max-width: 600px; /* You can change this value to your preferred width */
+    margin: 0 auto; /* Centers the carousel content within the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item {
+    /* Optional: Adjust the size of the carousel items */
+    height: 750px; /* You can change this value to your preferred height */
+    width: 450px; /* You can change this value to your preferred width */
+    object-fit: contain;
+}
+
