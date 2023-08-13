@@ -4,7 +4,8 @@
 }
 
 .navtext {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
 }
 
 .nav-link {
@@ -79,6 +80,9 @@
 html {
     scroll-behavior: smooth;
 }
+.product-title{
+    font-family: 'Bebas Neue', sans-serif;
+}
 
 #ATV {
     margin-top: 0.5%;
@@ -94,4 +98,25 @@ a {
 
 .workcross{
     text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Title cards */
+.card-title{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Text Cards */
+.card-text{
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
+}
+/* ATVS */
+.card-title-workcross{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-text-workcross{
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
 }

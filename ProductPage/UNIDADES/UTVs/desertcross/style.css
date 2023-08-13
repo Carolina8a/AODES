@@ -37,7 +37,7 @@
 /* Product Section */
 
 .bg-image {
-        background-image: url("/Images/AODES_Pathcross.png");
+        background-image: url("/Images/AODES_Desertcross.png");
         background-size: 80% auto;
         
         background-repeat: no-repeat;
@@ -64,13 +64,6 @@
     height: 100vh;
    
 }
-
-/* @media (max-width: 767px) {
-    
-    .bg-image {
-        back..
-    }
-} */
 
 .carousel-container {
     display: flex;
