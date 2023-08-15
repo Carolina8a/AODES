@@ -1,0 +1,49 @@
+/* Navigation */
+#Navigation {
+    box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
+    
+   
+}
+.navtext {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: large;
+}
+
+.nav-link{
+    text-transform: capitalize;
+    position: relative; 
+}
+
+.nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: #ED3333;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s; 
+    display: block;
+
+}
+
+.nav-link:hover:after{
+  width: 100%;
+}
+/* End Navigation  */
+
+
+.Header{
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+
+hr{
+    border-top: 4px dotted black;
+    width: 80%; /* Set the width to match the iframe */
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+

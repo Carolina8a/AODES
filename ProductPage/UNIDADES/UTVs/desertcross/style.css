@@ -37,7 +37,7 @@
 /* Product Section */
 
 .bg-image {
-        background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
+        background-image: url("/Images/AODES_Desertcross.png");
         background-size: 80% auto;
         
         background-repeat: no-repeat;
@@ -56,33 +56,12 @@
 }
 
 .Background-image{
-    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/GALERIA/AODES_Galeria-BG.png");
+    background-image: url("/Images/AODES_Galeri­a.png");
     background-size: 100% 100%; /* Adjust the background size to cover the container */
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
     height: 100vh;
-    position: relative;
-   
-}
-
-.galeria-title {
-    padding: 0;
-    margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: italic;
-    font-size: 5rem;
-    top: 30%;
-    left: 5%; /* Adjust the left position as needed */
-    color: rgb(255, 255, 255); /* Adjust the color as needed */
-    z-index: 1; /* Place it above the background image */
-}
-
-.galeria-overlay {
-    position: absolute;
-    top: 20%;
-    left: 5%; /* Adjust the left position as needed */
-    transform: translateY(-50%);
    
 }
 
@@ -135,24 +114,12 @@ a{
 }
 
 /* SPECS */
-.especificaciones-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: -125px; 
-    position: relative;
-    color: white;
-    letter-spacing: 6px;
-    margin-bottom: 0;
-    padding: 0;
-}
-
 .masthead{
     display: block;
     object-fit: contain;
     max-width: 100%;
     padding: 0;
-    margin: -50px 0 0; 
+    margin: 0;
 }
 
 
@@ -202,9 +169,3 @@ a{
     font-family: 'Arimo', sans-serif;
     text-align: justify;
 }
-
-@media (max-width: 767px) {
-    .bg-image {
-      background-position: 80% 50%; 
-    }
-  }
