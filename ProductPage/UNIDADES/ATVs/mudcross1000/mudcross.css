@@ -68,14 +68,13 @@
 
 
 .bg-image {
-        background-image: url("/Images/AODES_Pathcross.png");
-        background-size: 80% auto;
-        
-        background-repeat: no-repeat;
-        background-position: 80% 10%;
-        overflow: hidden;
-    
-  }
+    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    overflow: hidden;
+
+}
   .moto {
     max-width: 80%; /* Set the maximum width of the image to 100% */
     height: auto; /* Maintain the aspect ratio */
