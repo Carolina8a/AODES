@@ -57,7 +57,7 @@ video::-webkit-media-controls {
 
     /* pattern */
     .pattern-background {
-      background: linear-gradient(to bottom, #3f3f3fcc 70%, white 50%), url(/Images/FondoGeo-01.png);
+      background: linear-gradient(to bottom, #3f3f3fcc 70%, white 50%), url(https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/FondoGeo-01.png);
       background-blend-mode: normal, lighten; /* Use lighten blend mode for the pattern */
       background-attachment: local;
       color: rgb(0, 0, 0);
@@ -120,7 +120,7 @@ h1 {
 }
 
 .footer-font{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .footer-dark {
   padding:20px 0;
@@ -187,7 +187,9 @@ h1 {
   }
 }
 
-
+.copyright{
+  font-family: 'Bebas Neue', sans-serif;
+}
 
 .footer-dark .item.social > a:hover {
   opacity:0.9;
