@@ -117,3 +117,17 @@ hr{
     padding-bottom: 50px;
     font-family: 'Arimo', sans-serif;
 }
+
+.center-container {
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.max-width-form {
+    width: 80%; /* Set the desired width for the form container */
+    max-width: 800px; /* Limit the maximum width of the form container */
+    margin: 0 auto; /* Center the form container horizontally */
+}
