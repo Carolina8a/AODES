@@ -1,0 +1,19 @@
+<!-- Stylesheets -->
+<!-- Includes .css files for navbar + footer -->
+<!-- These go under 'Css File' comment in <head> tag -->
+
+<link rel="stylesheet" href="{{ get_asset_url('HUBSPOTCSSFILEPATH') }}" />
+<link rel="stylesheet" href="{{ get_asset_url('/AODES/_Modules/Navbar/navbar.css') }}" />
+<link rel="stylesheet" href="{{ get_asset_url('/AODES/_Modules/Footer/footer.css') }}" />
+
+
+<!-- Navbar Module Link -->
+<!-- Goes at the very TOP of <body> tag on every page -->
+
+{% module "module_16922684178959" path="/AODES/_Modules/Navbar/Navbar", label="Navigation Bar" %}
+
+
+<!-- Footer Module Link -->
+<!-- Goes at the very BOTTOM of <body> tag on every page -->
+
+{% module "module_169226870585514" path="/AODES/_Modules/Footer/Footer", label="Footer" %}
