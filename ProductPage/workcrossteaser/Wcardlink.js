@@ -9,5 +9,3 @@ gsap.from('.animate-card', {
     stagger: 0.2,
     delay: 0.2,
 });
-
-

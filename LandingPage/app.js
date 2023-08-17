@@ -1,4 +1,4 @@
-//Animations 
+//Animations
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.from('.hero_animation', {
