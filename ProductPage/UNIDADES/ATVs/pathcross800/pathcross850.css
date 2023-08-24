@@ -307,3 +307,14 @@ a{
   .icons:hover {
     opacity: 0.8;
   }
+
+  .warranty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    size: 2rem;
+    max-width: 300px;
+    height: auto;
+    
+  }
