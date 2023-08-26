@@ -2,18 +2,18 @@
 
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
-    
-   
+
+
 }
 .navtext {
     font-family: 'Bebas Neue', sans-serif;
     font-size: large;
-    
+
 }
 
 .nav-link{
     text-transform: capitalize;
-    position: relative; 
+    position: relative;
 }
 
 .nav-link:after{
@@ -24,7 +24,7 @@
     width: 0;
     left: 0;
     bottom: -10px;
-    transition: 0.3s; 
+    transition: 0.3s;
     display: block;
 
 }
@@ -39,7 +39,7 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     text-align: center;
-    margin-top: -125px; 
+    margin-top: -125px;
     position: relative;
     color: white;
     letter-spacing: 6px;
@@ -63,7 +63,7 @@
     top: 20%;
     left: 5%; /* Adjust the left position as needed */
     transform: translateY(-50%);
-   
+
 }
 
 
@@ -94,21 +94,21 @@
     width: 100%;
     height: 100vh;
     position: relative;
-   
+
 }
 
 
 .carousel-container {
     display: flex;
     justify-content: center;
-   
+
 }
 
 
 .carousel-inner {
-    margin-top: 190px !important;
+    margin-top: 10% !important;
     /* Optional: Adjust the max-width of the carousel content */
-    max-width: 800px; /* You can change this value to your preferred width */
+    max-width: 50vw; /* You can change this value to your preferred width */
     margin: 0 auto; /* Centers the carousel content within the container */
     align-items: center;
     justify-content: center;
@@ -124,7 +124,7 @@
 
 .carousel-item img {
     /* Ensure the image covers the entire container */
-  
+
     top: 0;
     left: 0;
     width: 100%;
@@ -152,16 +152,16 @@ a{
     object-fit: contain;
     max-width: 100%;
     padding: 0;
-    margin: -50px 0 0; 
+    margin: -50px 0 0;
 }
 
 
 @media (max-width: 991px) {
     .PC {
         display: none;
-        
+
     }
-    
+
 }
 
 
