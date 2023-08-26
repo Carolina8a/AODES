@@ -1,0 +1,133 @@
+/* Navigation */
+#Navigation {
+    box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
+}
+
+.navtext {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    position: relative;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: #ED3333;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    display: block;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+
+.masthead {
+    background-size: cover;
+    min-height: 50vh;
+    position: relative; 
+    color: white; 
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2)
+}
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.rojo{
+    color: #ED3333;
+}
+.sub{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.9rem;
+}
+.parrafo{
+    text-align: center;
+    
+}
+.min{
+    font-weight: bolder;
+}
+.textarea {
+    font-family: 'Arimo', sans-serif;
+    width: 100%; /* Use full width of the container */
+    max-width: 1100px; /* Limit the maximum width */
+    margin: 20px auto; /* Adjust the margin to control distance */
+    padding-bottom: 50px; /* Add padding for spacing between text and border */
+}
+
+.img1{
+    padding-top: 60px;
+    margin-top: 25px;
+    padding: 15px;
+    max-width: 100%; /* The image won't exceed its original width */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-height: 550px; /* Set the maximum height of the image */
+    float: right;
+
+}
+
+
+.mintitle {
+    text-transform: capitalize;
+    text-align: left; /* Justify the text to the right */
+    margin-top: 20px; /* Add some margin for spacing */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem; /* Adjust font size as needed */
+
+    @media (max-width: 767px) {
+        text-align: center; /* Center align the text on mobile */
+    }
+}
+
+
+.r1 {
+    width: 77%; /* Use full width of the container */
+    max-width: 1500px; /* Limit the maximum width */
+    height: auto;
+    margin: 20px auto; 
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
+}
+
+hr{
+    border-top: 4px dotted black;
+}
+
+.action{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.con{
+    width: 100%; /* Use full width of the container */
+    max-width: 1100px; /* Limit the maximum width */
+    margin: 20px auto; /* Adjust the margin to control distance */
+    padding-bottom: 50px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.center-container {
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.max-width-form {
+    width: 80%; /* Set the desired width for the form container */
+    max-width: 800px; /* Limit the maximum width of the form container */
+    margin: 0 auto; /* Center the form container horizontally */
+}
