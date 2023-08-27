@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
 
    <!-- Google Font -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +16,8 @@
     <title>Home Page</title>
 </head>
 <body>
-    <!-- Navigation Bar -->
+
+    <!--- Navbar --->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Navigation">
 
@@ -24,7 +26,7 @@
                 class="d-inline-block align-top" />
 
             </a>
-          <button
+            <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -35,27 +37,27 @@
             >
             <span class="navbar-toggler-icon"></span>
 
-          </button>
+            </button>
 
-          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav ms-auto text-center navtext">
                 <li>
-                    <a class="nav-link" href="/HomePage/home.html">INICIO</a>
+                    <a class="nav-link" href="/">INICIO</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/ProductPage/Unid/unidades.html">UNIDADES</a>
+                    <a class="nav-link" href="/unidades">UNIDADES</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/Nosotros/nosotros.html">NOSOTROS</a>
+                    <a class="nav-link" href="/nosotros">NOSOTROS</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/DealerPage/dealer.html">BECOME A DEALER</a>
+                    <a class="nav-link" href="/dealer">BECOME A DEALER</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/DealerLocator/dealerlocator.html">DEALER LOCATOR</a>
+                    <a class="nav-link" href="/dealer/locator">DEALER LOCATOR</a>
                 </li>
             </ul>
-          </div>
+            </div>
         </nav>
     </div>
 
@@ -179,7 +181,9 @@
  </div>
 
 
-
+ <script>
+    $("#nav-placeholder").load("navbar.html", function(){ console.log('ran') });
+</script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
