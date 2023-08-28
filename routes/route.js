@@ -4,15 +4,17 @@ const path = require('path');
 
 
 router.get('/', function(req, res) {
-    console.log("\n\n\n")
+
     let filePath = path.join(__dirname, '/../views/HomePage/home.html')
-    console.log(filePath)
-    console.log("\n\n\n")
     res.sendFile(filePath);
+
 });
 
 router.get('/unidades', function(req, res) {
-    res.send('unidades page');
+
+    let filePath = path.join(__dirname, '/../views/ProductPage/Unid/unidades.html')
+    res.sendFile(filePath);
+
 });
 
 router.get('/nosotros', function(req, res) {
