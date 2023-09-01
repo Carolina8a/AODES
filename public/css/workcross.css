@@ -1,18 +1,17 @@
 /* Navigation */
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
-    
-   
+
+
 }
 .navtext {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: large;
-    
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.25rem;
 }
 
 .nav-link{
     text-transform: capitalize;
-    position: relative; 
+    position: relative;
 }
 
 .nav-link:after{
@@ -23,7 +22,7 @@
     width: 0;
     left: 0;
     bottom: -10px;
-    transition: 0.3s; 
+    transition: 0.3s;
     display: block;
 
 }
@@ -119,8 +118,8 @@
     font-size: 20px;
     text-decoration: none;
     font-size: x-large;
-    
-    
+
+
 }
 /* Header */
 .home_button::before{
@@ -140,10 +139,10 @@
 @keyframes button{
    0%{
     box-shadow: 0 0 12px hsl(0, 80%, 48%);
-   } 
+   }
    50%{
     box-shadow: 0 0 60px hsl(0, 100%, 50%);
-   } 
+   }
 }
 /* List of Products */
 a {
@@ -152,7 +151,7 @@ a {
 }
 
 /* a:hover {
-    
+
     color: #ED3333;
 } */
 /* END HEADER */
@@ -203,11 +202,11 @@ a {
   html {
     scroll-behavior: smooth;
    }
-   
+
    #ATV {
     margin-top: 0.5%;
     padding-bottom: 15%;
-   } 
+   }
 
    .card-title-workcross{
     font-family: 'Bebas Neue', sans-serif;

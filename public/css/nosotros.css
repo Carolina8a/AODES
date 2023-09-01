@@ -1,19 +1,20 @@
 /* Navigation */
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
-}
 
+
+}
 .navtext {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: large;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.25rem;
 }
 
-.nav-link {
+.nav-link{
     text-transform: capitalize;
     position: relative;
 }
 
-.nav-link:after {
+.nav-link:after{
     content: "";
     position: absolute;
     background-color: #ED3333;
@@ -23,11 +24,13 @@
     bottom: -10px;
     transition: 0.3s;
     display: block;
+
 }
 
-.nav-link:hover:after {
-    width: 100%;
+.nav-link:hover:after{
+  width: 100%;
 }
+/* End Navigation  */
 
 /* BANNER */
 
