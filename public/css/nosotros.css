@@ -34,14 +34,14 @@
 .masthead {
     background-size: cover;
     min-height: 50vh;
-    position: relative; 
-    color: white; 
+    position: relative;
+    color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.2)
 }
 
 /* title */
 .main_title{
-    margin-left: 210px;    
+    margin-left: 210px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 4rem;
     font-style: italic;
@@ -103,7 +103,7 @@
     padding: 10px; /* Add some padding for better readability */
 
     @media (max-width: 767px) {
-        text-align: justify; 
+        text-align: justify;
         margin: 10px; /* Adjust the margin for mobile devices */
         padding: 10px;
     }
@@ -137,4 +137,3 @@
 .fa{
     font-size: 1.2rem;
 }
-
