@@ -24,28 +24,40 @@ router.get('/dealerlocator', function(req, res) {
 });
 
 router.get('/unidades', function(req, res) {
-    let filePath = path.join(__dirname, '/../views/ProductPage/Unid/unidades.html')
+    let filePath = path.join(__dirname, '/../views/Unidades/unidades.html')
     res.sendFile(filePath);
 });
 
-// router.get('/unidades/:name', function(req, res) {
-//     res.send(`unidades ${req.params.name}  page`);
+router.get('/unidades/:name', function(req, res) {
+    let filePath = path.join(__dirname, `/../views/Teasers/${req.params.name}/${req.params.name}.html`)
+    res.sendFile(filePath, {}, function (err) {
+        if (err) {
+            console.log('Tried to load page that does not exist, redirecting to homepage')
+            res.redirect('/')
+        } else {
+            console.log('Sent:', filePath);
+        }
+    })
+});
+
+// router.get('/unidades/desertcross', function(req, res) {
+//     let filePath = path.join(__dirname, '/../views/Teasers/desertcross/desertcross.html')
+//     res.sendFile(filePath);
 // });
 
-router.get('/unidades/desertcross', function(req, res) {
-    let filePath = path.join(__dirname, '/../views/Teasers/desertcross/desertcross.html')
-    res.sendFile(filePath);
-});
+// router.get('/unidades/pathcross', function(req, res) {
+//     let filePath = path.join(__dirname, '/../views/Teasers/pathcross/pathcross.html')
+//     res.sendFile(filePath);
+// });
 
-router.get('/unidades/pathcross', function(req, res) {
-    let filePath = path.join(__dirname, '/../views/Teasers/pathcross/pathcross.html')
-    res.sendFile(filePath);
-});
+// router.get('/unidades/workcross', function(req, res) {
+//     let filePath = path.join(__dirname, '/../views/Teasers/workcross/workcross.html')
+//     res.sendFile(filePath);
+// });
 
-router.get('/unidades/workcross', function(req, res) {
-    let filePath = path.join(__dirname, '/../views/Teasers/workcross/workcross.html')
-    res.sendFile(filePath);
+router.get('*', function(req, res){
+    console.log(`Tried to load page that does not exist:\n\n${JSON.stringify(req.params)}\n\nredirecting to homepage`)
+    res.redirect('/')
 });
-
 
 module.exports = router

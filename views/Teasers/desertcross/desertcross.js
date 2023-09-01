@@ -11,3 +11,4 @@ gsap.from('.animate-card', {
 });
 
 
+console.log("hiiii")

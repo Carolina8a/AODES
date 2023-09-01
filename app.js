@@ -4,6 +4,7 @@ const router = require('./routes/route.js')
 const app = express();
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 app.use(router);
 
 
