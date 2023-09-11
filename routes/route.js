@@ -28,6 +28,30 @@ router.get('/unidades', function(req, res) {
     res.sendFile(filePath);
 });
 
+router.get('/unidades/atv/:name', function(req, res) {
+    let filePath = path.join(__dirname, `/../views/Unidades/ATVs/${req.params.name}/${req.params.name}.html`)
+    res.sendFile(filePath, {}, function (err) {
+        if (err) {
+            console.log(`Tried to load page that does not exist:\n\n${JSON.stringify(req.params.name)}\n\nredirecting to homepage`)
+            res.redirect('/')
+        } else {
+            console.log('Sent:', filePath);
+        }
+    })
+});
+
+router.get('/unidades/utv/:name', function(req, res) {
+    let filePath = path.join(__dirname, `/../views/Unidades/UTVs/${req.params.name}/${req.params.name}.html`)
+    res.sendFile(filePath, {}, function (err) {
+        if (err) {
+            console.log(`Tried to load page that does not exist:\n\n${JSON.stringify(req.params.name)}\n\nredirecting to homepage`)
+            res.redirect('/')
+        } else {
+            console.log('Sent:', filePath);
+        }
+    })
+});
+
 router.get('/unidades/:name', function(req, res) {
     let filePath = path.join(__dirname, `/../views/Teasers/${req.params.name}/${req.params.name}.html`)
     res.sendFile(filePath, {}, function (err) {
@@ -56,7 +80,7 @@ router.get('/unidades/:name', function(req, res) {
 // });
 
 router.get('*', function(req, res){
-    console.log(`Tried to load page that does not exist:\n\n${JSON.stringify(req.params)}\n\nredirecting to homepage`)
+    console.log(`Tried to load page that does not exist:\n\n${JSON.stringify(req.params.name)}\n\nredirecting to homepage`)
     res.redirect('/')
 });
 
