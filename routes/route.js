@@ -28,6 +28,11 @@ router.get('/unidades', function(req, res) {
     res.sendFile(filePath);
 });
 
+router.get('/aviso-de-privacidad', function(req, res) {
+    let filePath = path.join(__dirname, '/../views/terms-conditions/TC.html')
+    res.sendFile(filePath);
+});
+
 router.get('/unidades/atv/:name', function(req, res) {
     let filePath = path.join(__dirname, `/../views/Unidades/ATVs/${req.params.name}/${req.params.name}.html`)
     res.sendFile(filePath, {}, function (err) {
