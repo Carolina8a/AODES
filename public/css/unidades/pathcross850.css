@@ -1,14 +1,12 @@
-/* Navigation bar */
-
+/* Navigation */
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
 
 
 }
 .navtext {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: large;
-
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.25rem;
 }
 
 .nav-link{
@@ -35,18 +33,17 @@
 /* End Navigation  */
 
 /* Product Section */
-.especificaciones-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: -125px;
-    position: relative;
-    color: white;
-    letter-spacing: 6px;
-    margin-bottom: 0;
-    padding: 0;
+
+.bg-image {
+    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    overflow: hidden;
+
 }
-.galeria-title {
+
+  .galeria-title {
     padding: 0;
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -66,15 +63,6 @@
 
 }
 
-
-.bg-image {
-    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
-    background-size: 80% auto;
-    background-repeat: no-repeat;
-    background-position: 80% 10%;
-    overflow: hidden;
-
-}
   .moto {
     max-width: 80%; /* Set the maximum width of the image to 100% */
     height: auto; /* Maintain the aspect ratio */
@@ -84,7 +72,6 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3.75rem;
 }
-
 
 .Background-image{
     background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/GALERIA/AODES_Galeria-BG.png");
@@ -97,7 +84,6 @@
 
 }
 
-
 .carousel-container {
     display: flex;
     justify-content: center;
@@ -106,9 +92,9 @@
 
 
 .carousel-inner {
-    margin-top: 10% !important;
+    margin-top: 190px !important;
     /* Optional: Adjust the max-width of the carousel content */
-    max-width: 50vw; /* You can change this value to your preferred width */
+    max-width: 800px; /* You can change this value to your preferred width */
     margin: 0 auto; /* Centers the carousel content within the container */
     align-items: center;
     justify-content: center;
@@ -152,7 +138,7 @@ a{
     object-fit: contain;
     max-width: 100%;
     padding: 0;
-    margin: -50px 0 0;
+    margin: 0;
 }
 
 
@@ -198,14 +184,26 @@ a{
     background-color: red;
 }
 
+
 .text-description{
     font-family: 'Arimo', sans-serif;
     text-align: justify;
 }
 
-
 @media (max-width: 767px) {
     .bg-image {
-      background-position: 80% 50%; /* Adjust the values as needed */
+      background-position: 80% 50%;
     }
   }
+
+  .especificaciones-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -125px;
+    position: relative;
+    color: white;
+    letter-spacing: 6px;
+    margin-bottom: 0;
+    padding: 0;
+}

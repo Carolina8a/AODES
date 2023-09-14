@@ -1,19 +1,17 @@
-/* Navigation bar */
-
+/* Navigation */
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
-    
-   
+
+
 }
 .navtext {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: large;
-    
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.25rem;
 }
 
 .nav-link{
     text-transform: capitalize;
-    position: relative; 
+    position: relative;
 }
 
 .nav-link:after{
@@ -24,7 +22,7 @@
     width: 0;
     left: 0;
     bottom: -10px;
-    transition: 0.3s; 
+    transition: 0.3s;
     display: block;
 
 }
@@ -37,34 +35,13 @@
 /* Product Section */
 
 .bg-image {
-    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
-    background-size: 80% auto;
-    background-repeat: no-repeat;
-    background-position: 80% 10%;
-    overflow: hidden;
+        background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Unidad_Workcross.png");
+        background-size: 80% auto;
+        background-repeat: no-repeat;
+        background-position: 80% 10%;
+        overflow: hidden;
 
-}
-
-  .galeria-title {
-    padding: 0;
-    margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: italic;
-    font-size: 5rem;
-    top: 30%;
-    left: 5%; /* Adjust the left position as needed */
-    color: rgb(255, 255, 255); /* Adjust the color as needed */
-    z-index: 1; /* Place it above the background image */
-}
-
-.galeria-overlay {
-    position: absolute;
-    top: 20%;
-    left: 5%; /* Adjust the left position as needed */
-    transform: translateY(-50%);
-   
-}
-
+  }
   .moto {
     max-width: 80%; /* Set the maximum width of the image to 100% */
     height: auto; /* Maintain the aspect ratio */
@@ -83,13 +60,13 @@
     width: 100%;
     height: 100vh;
     position: relative;
-   
+
 }
 
 .carousel-container {
     display: flex;
     justify-content: center;
-   
+
 }
 
 
@@ -112,7 +89,7 @@
 
 .carousel-item img {
     /* Ensure the image covers the entire container */
-  
+
     top: 0;
     left: 0;
     width: 100%;
@@ -140,16 +117,15 @@ a{
     object-fit: contain;
     max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin: -50px 0 0;
 }
-
 
 @media (max-width: 991px) {
     .PC {
         display: none;
-        
+
     }
-    
+
 }
 
 
@@ -186,7 +162,6 @@ a{
     background-color: red;
 }
 
-
 .text-description{
     font-family: 'Arimo', sans-serif;
     text-align: justify;
@@ -194,19 +169,38 @@ a{
 
 @media (max-width: 767px) {
     .bg-image {
-      background-position: 80% 50%; 
+      background-position: 80% 50%; /* Adjust the values as needed */
     }
   }
 
-  .especificaciones-title {
+  .galeria-title {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: 5rem;
+    top: 30%;
+    left: 5%; /* Adjust the left position as needed */
+    color: rgb(255, 255, 255); /* Adjust the color as needed */
+    z-index: 1; /* Place it above the background image */
+}
+
+.galeria-overlay {
+    position: absolute;
+    top: 20%;
+    left: 5%; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+
+}
+
+.especificaciones-title {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     text-align: center;
-    margin-top: -125px; 
+    margin-top: -125px;
     position: relative;
     color: white;
     letter-spacing: 6px;
     margin-bottom: 0;
     padding: 0;
 }
-
