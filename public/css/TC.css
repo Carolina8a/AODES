@@ -63,6 +63,18 @@
     font-weight: bolder;
 }
 
+.tt{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+
+.st{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.65rem;
+}
+
 .textarea {
     font-family: 'Arimo', sans-serif;
     width: 100%; 
