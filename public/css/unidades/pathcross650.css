@@ -1,3 +1,6 @@
+body{
+    height: 100%
+}
 /* Navigation */
 #Navigation {
     box-shadow: 0 6px 7px -7px rgb(71, 71, 71);
@@ -24,7 +27,6 @@
     bottom: -10px;
     transition: 0.3s;
     display: block;
-
 }
 
 .nav-link:hover:after{
@@ -32,91 +34,7 @@
 }
 /* End Navigation  */
 
-/* Product Section */
 
-.bg-image {
-        background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
-        background-size: 80% auto;
-
-        background-repeat: no-repeat;
-        background-position: 80% 10%;
-        overflow: hidden;
-
-  }
-  .moto {
-    max-width: 80%; /* Set the maximum width of the image to 100% */
-    height: auto; /* Maintain the aspect ratio */
-}
-
-.Product_title{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 3.75rem;
-}
-
-.Background-image{
-    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/GALERIA/AODES_Galeria-BG.png");
-    background-size: 100% 100%; /* Adjust the background size to cover the container */
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    position: relative;
-
-}
-
-.galeria-title {
-    padding: 0;
-    margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: italic;
-    font-size: 5rem;
-    top: 30%;
-    left: 5%; /* Adjust the left position as needed */
-    color: rgb(255, 255, 255); /* Adjust the color as needed */
-    z-index: 1; /* Place it above the background image */
-}
-
-.galeria-overlay {
-    position: absolute;
-    top: 20%;
-    left: 5%; /* Adjust the left position as needed */
-    transform: translateY(-50%);
-
-}
-
-.carousel-container {
-    display: flex;
-    justify-content: center;
-
-}
-
-
-.carousel-inner {
-    margin: 100px auto !important;
-    /* Optional: Adjust the max-width of the carousel content */
-    max-width: 800px; /* You can change this value to your preferred width */
-    /* margin: 0 auto; Centers the carousel content within the container */
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel-item {
-    /* Set a fixed aspect ratio for the carousel items */
-    /* For example, 16:9 aspect ratio */
-
-    position: relative;
-    overflow: hidden;
-}
-
-.carousel-item img {
-    /* Ensure the image covers the entire container */
-
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .links{
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
@@ -132,14 +50,65 @@ a{
     color: #ED3333;
 }
 
+/* Product Section */
+.bg-image {
+    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/AODES_Pathcross.png");
+    background-size: 80% auto;
+
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    overflow: hidden;
+}
+
+.moto {
+    max-width: 80%; /* Set the maximum width of the image to 100% */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.Product_title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.75rem;
+}
+
+#bg-img{
+    background-image: url("https://39514401.fs1.hubspotusercontent-na1.net/hubfs/39514401/AODES/Images/GALERIA/AODES_Galeria-BG.png");
+    background-size: 100% 100%; /* Adjust the background size to cover the container */
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+/* Product Section End */
+
+/*----------------------------------- 💀💀💀 Gallery 💀💀💀 -----------------------------------*/
+.galeria-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0 10%;
+}
+
+.galeria-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    color: rgb(255, 255, 255); /* Adjust the color as needed */
+    margin: 2% 0 0 6%;
+}
+
+.carousel {
+    max-width: 80%;
+}
+
+
+/*----------------------------------- 💀💀💀 Gallery 💀💀💀 -----------------------------------*/
+
+
+
 /* SPECS */
 .especificaciones-title {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 2.7vw;
     text-align: center;
-    margin-top: -125px;
-    position: relative;
-    color: white;
+    color: black;
     letter-spacing: 6px;
     margin-bottom: 0;
     padding: 0;
@@ -150,7 +119,6 @@ a{
     object-fit: contain;
     max-width: 100%;
     padding: 0;
-    margin: -50px 0 0;
 }
 
 
