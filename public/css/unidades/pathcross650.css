@@ -61,8 +61,7 @@ a{
 }
 
 .moto {
-    max-width: 80%; /* Set the maximum width of the image to 100% */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 80%; /* Set the maximum width of the image to 100% *//* Maintain the aspect ratio */
 }
 
 .Product_title{
@@ -83,21 +82,48 @@ a{
 .galeria-container {
     flex-direction: column;
     align-items: center;
-    padding: 5% 0 10%;
+    padding: 5% 0 8%;
 }
 
 .galeria-title {
     font-family: 'Bebas Neue', sans-serif;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: rgb(255, 255, 255); /* Adjust the color as needed */
-    margin: 2% 0 0 6%;
+    margin: 1% 0 0 6%;
 }
 
 .carousel {
-    max-width: 80%;
+    max-width: 75%;
+    height: auto;
+    padding: 0% 0 0;
 }
 
+
+
+/* Desktop View */
+@media (min-width: 801px) {
+
+}
+
+/* Mobile View */
+@media (max-width: 800px) {
+    .galeria-title {
+        font-size: 2.5rem;
+        margin: 2% 0 0 6%;
+    }
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .moto-container {
+        width: 100%;
+        background-color: white;
+    }
+    .bg-image {
+        background-color: white;
+    }
+}
 
 /*----------------------------------- 💀💀💀 Gallery 💀💀💀 -----------------------------------*/
 
@@ -106,7 +132,7 @@ a{
 /* SPECS */
 .especificaciones-title {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.7vw;
+    font-size: 3rem;
     text-align: center;
     color: black;
     letter-spacing: 6px;
@@ -122,16 +148,15 @@ a{
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 800px) {
     .PC {
         display: none;
-
     }
 
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 801px) {
     .mobile {
         display: none;
     }
