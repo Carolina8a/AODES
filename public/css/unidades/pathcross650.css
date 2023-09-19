@@ -99,8 +99,6 @@ a{
     padding: 0% 0 0;
 }
 
-
-
 /* Desktop View */
 @media (min-width: 801px) {
 
@@ -126,7 +124,6 @@ a{
 }
 
 /*----------------------------------- 💀💀💀 Gallery 💀💀💀 -----------------------------------*/
-
 
 
 /* SPECS */
@@ -194,7 +191,7 @@ a{
     text-align: justify;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .bg-image {
       background-position: 80% 50%;
     }
